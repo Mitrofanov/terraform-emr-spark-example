@@ -4,7 +4,7 @@
           "Action": {
               "SimpleScalingPolicyConfiguration": {
                   "CoolDown": 300,
-                  "ScalingAdjustment": 1,
+                  "ScalingAdjustment": -1,
                   "AdjustmentType": "CHANGE_IN_CAPACITY"
               }
           },
@@ -27,7 +27,7 @@
           "Action": {
               "SimpleScalingPolicyConfiguration": {
                   "CoolDown": 300,
-                  "ScalingAdjustment": -1,
+                  "ScalingAdjustment": 1,
                   "AdjustmentType": "CHANGE_IN_CAPACITY"
               }
           },
